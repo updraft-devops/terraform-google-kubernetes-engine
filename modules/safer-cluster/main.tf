@@ -104,7 +104,7 @@ module "gke" {
   monitoring_service = var.monitoring_service
 
   monitoring_enabled_components = var.monitoring_enabled_components
-  logging_enabled_components = var.monitoring_enabled_components
+  logging_enabled_components = var.logging_enabled_components
 
   monitoring_enable_managed_prometheus = var.monitoring_enable_managed_prometheus
 
